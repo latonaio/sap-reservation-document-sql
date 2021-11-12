@@ -17,6 +17,6 @@ CREATE TABLE `sap-reservation-document-header`
     `NetworkNumberForAcctAssgmt`, varchar(12) DEFAULT NULL,
     `IssuingOrReceivingPlant`, varchar(4) DEFAULT NULL,
     `IssuingOrReceivingStorageLoc`, varchar(4) DEFAULT NULL,
-    PRIMARY KEY (`Reservation`),
+    PRIMARY KEY (`Reservation`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
