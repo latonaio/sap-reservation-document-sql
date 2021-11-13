@@ -13,8 +13,8 @@ https://api.sap.com/api/OP_API_RESERVATION_DOCUMENT_SRV_0001/overview
 
 sap-reservation-document-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
-* sap-reservation-document-sql-header-data.sql  
-
+* sap-reservation-document-sql-header-data.sql（SAP 入出庫予定 - ヘッダデータ）
+* sap-reservation-document-sql-item-data.sql（SAP 入出庫予定 - 明細データ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 
