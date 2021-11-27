@@ -5,7 +5,7 @@ CREATE TABLE `sap-reservation-document-header`
     `GoodsMovementType`     varchar(3) DEFAULT NULL,
     `CostCenter`            varchar(10) DEFAULT NULL,
     `GoodsRecipientName`    varchar(12) DEFAULT NULL,
-    `ReservationDate`       varchar(8) DEFAULT NULL,
+    `ReservationDate`       date DEFAULT NULL,
     `Customer`              varchar(10) DEFAULT NULL,
     `WBSElement`            varchar(8) DEFAULT NULL,
     `ControllingArea`       varchar(4) DEFAULT NULL,

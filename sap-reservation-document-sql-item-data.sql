@@ -5,7 +5,7 @@ CREATE TABLE `sap-reservation-document-item`
     `RecordType`            varchar(1) DEFAULT NULL,
     `Product`               varchar(40) DEFAULT NULL,
     `RequirementType`       varchar(2) DEFAULT NULL,
-    `MatlCompRequirementDate` varchar(8) DEFAULT NULL,
+    `MatlCompRequirementDate` date DEFAULT NULL,
     `Plant`                 varchar(4) DEFAULT NULL,
     `ManufacturingOrderOperation` varchar(10) DEFAULT NULL,
     `GoodsMovementIsAllowed` bool DEFAULT NULL,
