@@ -32,7 +32,7 @@ CREATE TABLE `sap-reservation-document-item`
     `GoodsRecipientName`    varchar(12) DEFAULT NULL,
     `UnloadingPointName`    varchar(25) DEFAULT NULL,
     `ReservationItemText`   varchar(50) DEFAULT NULL,
-    PRIMARY KEY (`Reservation`, `ReservationItem`),
+    PRIMARY KEY (`Reservation`, `ReservationItem`, `RecordType`),
     CONSTRAINT `Reservation_fk` FOREIGN KEY (`Reservation`) REFERENCES `sap-reservation-document-header` (`Reservation`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
