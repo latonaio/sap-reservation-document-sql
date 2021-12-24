@@ -1,6 +1,6 @@
 CREATE TABLE `sap-reservation-document-header`
 (
-    `Reservation`           varchar(10) DEFAULT NULL,
+    `Reservation`           varchar(10) NOT NULL,
     `OrderID`               varchar(12) DEFAULT NULL,
     `GoodsMovementType`     varchar(3) DEFAULT NULL,
     `CostCenter`            varchar(10) DEFAULT NULL,

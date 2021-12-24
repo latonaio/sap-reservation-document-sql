@@ -1,8 +1,8 @@
 CREATE TABLE `sap-reservation-document-item`
 (
-    `Reservation`           varchar(10) DEFAULT NULL,
-    `ReservationItem`       varchar(4) DEFAULT NULL,
-    `RecordType`            varchar(1) DEFAULT NULL,
+    `Reservation`           varchar(10) NOT NULL,
+    `ReservationItem`       varchar(4) NOT NULL,
+    `RecordType`            varchar(1) NOT NULL,
     `Product`               varchar(40) DEFAULT NULL,
     `RequirementType`       varchar(2) DEFAULT NULL,
     `MatlCompRequirementDate` date DEFAULT NULL,
