@@ -1,11 +1,11 @@
-CREATE TABLE `sap-reservation-document-header`
+CREATE TABLE `sap_reservation_document_header`
 (
     `Reservation`           varchar(10) NOT NULL,
     `OrderID`               varchar(12) DEFAULT NULL,
     `GoodsMovementType`     varchar(3) DEFAULT NULL,
     `CostCenter`            varchar(10) DEFAULT NULL,
     `GoodsRecipientName`    varchar(12) DEFAULT NULL,
-    `ReservationDate`       date DEFAULT NULL,
+    `ReservationDate`       varchar(80) DEFAULT NULL,
     `Customer`              varchar(10) DEFAULT NULL,
     `WBSElement`            varchar(8) DEFAULT NULL,
     `ControllingArea`       varchar(4) DEFAULT NULL,
