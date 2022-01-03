@@ -1,4 +1,4 @@
-CREATE TABLE `sap_reservation_document_header`
+CREATE TABLE `sap_reservation_document_header_data`
 (
     `Reservation`           varchar(10) NOT NULL,
     `OrderID`               varchar(12) DEFAULT NULL,

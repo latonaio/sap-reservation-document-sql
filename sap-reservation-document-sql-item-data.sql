@@ -1,4 +1,4 @@
-CREATE TABLE `sap_reservation_document_item`
+CREATE TABLE `sap_reservation_document_item_data`
 (
     `Reservation`           varchar(10) NOT NULL,
     `ReservationItem`       varchar(4) NOT NULL,
@@ -33,6 +33,6 @@ CREATE TABLE `sap_reservation_document_item`
     `UnloadingPointName`    varchar(25) DEFAULT NULL,
     `ReservationItemText`   varchar(50) DEFAULT NULL,
     PRIMARY KEY (`Reservation`, `ReservationItem`, `RecordType`),
-    CONSTRAINT `SAPReservationDocumentItem_fk` FOREIGN KEY (`Reservation`) REFERENCES `sap_reservation_document_header` (`Reservation`)
+    CONSTRAINT `SAPReservationDocumentItem_fk` FOREIGN KEY (`Reservation`) REFERENCES `sap_reservation_document_header_data` (`Reservation`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
